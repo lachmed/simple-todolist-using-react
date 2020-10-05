@@ -1,0 +1,38 @@
+.addtask {
+    width: max-content;
+    height: max-content;
+    margin: 50px;
+    padding: 20px;
+    background-color: tomato;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-box-shadow: 2px 0px 16px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 0px 16px 0px rgba(0,0,0,0.75);
+    box-shadow: 2px 0px 16px 0px rgba(0,0,0,0.75);
+}
+
+.addtask h1{
+
+font-size: 2.6em;    
+
+}
+
+.addtask button{
+font-size: x-large;
+min-width:120px;
+border-radius:20px;
+background-color: springgreen;
+color: black;
+font-style: italic;
+margin-top: 20px;
+padding: 4px;
+cursor: pointer;
+}
+
+.addtask input{
+width: 400px;
+font-size: x-large;
+margin-right: 10px;
+border-radius:20px;
+padding: 5px;
+}

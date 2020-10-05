@@ -1,0 +1,41 @@
+.todoitem{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.3%;
+    padding: 1%;
+    background-color: burlywood;
+    -webkit-box-shadow: 2px 0px 16px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 0px 16px 0px rgba(0,0,0,0.75);
+    box-shadow: 2px 0px 16px 0px rgba(0,0,0,0.75);
+    max-width: 600px;
+    text-align: left;
+}
+
+.todoitem input{
+    cursor: pointer;
+    width: 40px;
+    height: 30px;
+}
+
+.todoitem span{
+    font-size: 1.9em;
+    position: relative;
+    bottom: 5px;
+}
+
+span.Completed {
+    text-decoration: line-through;
+    text-decoration-color: tomato;
+    color: gray;
+}
+.todoitem button {
+    font-size: x-large;
+    min-width:120px;
+    border-radius:20px;
+    background-color: crimson;
+    color: black;
+    font-style: italic;
+    margin-top: 20px;
+    padding: 4px;
+    cursor: pointer;
+}
